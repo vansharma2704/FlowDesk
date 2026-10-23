@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1792738488643,
+      "tag": "0000_careful_slyde",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1792739639994,
+      "tag": "0001_chief_butterfly",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1792745700000,
+      "tag": "0002_flowdesk_auth",
+      "breakpoints": true
+    }
+  ]
+}

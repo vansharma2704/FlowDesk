@@ -1,0 +1,7 @@
+/* Final high-specificity application shell theme. */
+body .app-frame .app-sidebar{width:220px;background:#f3f0ed;color:#29272c;border-right:1px solid #dfdbd7;box-shadow:8px 0 30px rgba(43,34,40,.04)}
+body .app-frame .app-sidebar .brand-light{color:#252329}body .app-frame .app-sidebar .brand-mark{background:linear-gradient(145deg,#ff7a72,#e94f5a);box-shadow:0 7px 18px rgba(235,79,90,.2)}
+body .app-frame .workspace-switch{background:#fff;border-color:#ddd7d3;color:#2c292e;box-shadow:0 5px 16px rgba(45,36,42,.04)}body .app-frame .workspace-switch>span,body .app-frame .sidebar-user>span{background:linear-gradient(145deg,#f77971,#dd4c57);color:white}body .app-frame .workspace-switch small,body .app-frame .sidebar-user a{color:#8b858a}
+body .app-frame .app-sidebar nav a{color:#6f6a70}body .app-frame .app-sidebar nav a:hover{background:#ebe6e2;color:#29262b}body .app-frame .app-sidebar nav a.active{background:#fff;color:#252329;box-shadow:inset 3px 0 #f05a63,0 5px 16px rgba(45,36,42,.055)}body .app-frame .app-sidebar nav a.active svg{color:#e6535e}body .app-frame .sidebar-user{border-color:#ddd7d3;color:#29272c}
+body .app-frame .app-content{margin-left:220px;background:radial-gradient(circle at 80% 0,#fff6f3 0,transparent 26%),#f7f6f4}body .app-frame .app-main{margin-left:0;padding:30px 32px 80px;max-width:none}.app-topbar{border-bottom-color:#e5e0dc}
+@media(max-width:900px){body .app-frame .app-sidebar{background:#f3f0ed}body .app-frame .app-content{margin-left:0}body .app-frame .app-main{padding:24px 18px 70px}}

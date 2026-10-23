@@ -1,0 +1,2 @@
+import { SiteHeader } from "./site-header";import { Brand } from "./brand";
+export function SimpleMarketing({kicker,title,copy,children}:{kicker:string;title:string;copy:string;children:React.ReactNode}){return <div className="marketing"><SiteHeader/><main className="simple-page"><header><span className="section-kicker">{kicker}</span><h1>{title}</h1><p>{copy}</p></header>{children}</main><footer className="simple-footer"><Brand light/><span>© {new Date().getFullYear()} FlowDesk</span></footer></div>}

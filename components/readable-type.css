@@ -1,0 +1,43 @@
+/* Accessibility baseline: readable text on every public and authenticated screen. */
+body{font-size:16px}
+body p{font-size:16px!important;line-height:1.65}
+body small{font-size:12px!important;line-height:1.5}
+body label{font-size:13px!important}
+body input,body textarea,body select{font-size:14px!important}
+body button{font-size:13px}
+
+body .marketing .nav-links{font-size:15px}
+body .marketing .hero-copy>p{font-size:18px!important}
+body .marketing .eyebrow,body .marketing .section-kicker{font-size:12px!important}
+body .marketing .hero-copy>small,body .marketing .feature-copy>span,body .marketing .audience-grid>article>span{font-size:12px!important}
+body .marketing .text-link,body .marketing .feature-copy a,body .marketing .audience-grid a{font-size:14px!important}
+body .marketing .problem-lines span,body .marketing .steps article>b,body .marketing .footer-top b,body .marketing .footer-bottom{font-size:12px!important}
+body .marketing .problem-lines p,body .marketing .feature-pair p,body .marketing .steps p,body .marketing .audience-grid p,body .marketing .footer-top{font-size:14px!important}
+body .marketing :is(.preview-top,.preview-body aside,.progress-row,.group-title,.preview-task,.composer,.preview-note,.board-row,.nl-input>span,.nl-output>small,.nl-input button,.nl-output>div){font-size:11px!important}
+body .marketing :is(.avatar,.avatar.small,.nl-output i){font-size:9px!important}
+
+body .auth-page .auth-panel>div>span,body .auth-page .auth-kicker,body .onboarding>section>span{font-size:12px!important}
+body .auth-page .auth-panel li{font-size:13px}
+body .auth-page .auth-form>div>small,body .auth-page .auth-switch{font-size:12px!important;line-height:1.55}
+body .auth-page .credential-form>label>span{font-size:13px!important}
+body .auth-page .credential-form .auth-button{font-size:14px!important}
+body .onboarding p{font-size:15px!important}
+body .onboarding form label{font-size:13px!important}
+body .onboarding form input,body .onboarding form .button{font-size:14px!important}
+
+body .app-frame{font-size:14px}
+body .app-frame p{font-size:15px!important}
+body .app-frame small{font-size:12px!important}
+body .app-frame label{font-size:13px!important}
+body .app-frame input,body .app-frame textarea,body .app-frame select{font-size:14px!important}
+body .app-frame :is(.app-kicker,.project-identity>div:first-child>span,.work-panel header span,.create-panel header span,.side-card>span,.side-title span,.task-rich-head,.asana-list-head){font-size:11px!important}
+body .app-frame :is(.rich-title span,.task-name small,.status,.rich-date,.pill-priority,.health-row small,.project-member-list small,.project-member-list em,.activity-card small,.side-empty,.board-card footer>span,.board-card footer small){font-size:11px!important}
+body .app-frame :is(.rich-title b,.task-name b,.health-row b,.project-member-list b,.activity-card b,.board-card>b,.comment-stream article b){font-size:13px!important}
+body .app-frame :is(.back-link,.project-tabs a,.view-switch button,.member-trigger,.save-task,.creator-tabs button,.text-button){font-size:13px!important}
+body .app-frame :is(.section-heading a,.work-panel header a,.home-widget>header>a,.simple-panel>header>a){font-size:12px!important}
+body .app-frame :is(.search-results span,.notification-popover span,.drawer-fields label>span,.comment-stream article p span){font-size:11px!important}
+
+body .simple-page p,body .legal-copy p,body .workflow-list p{font-size:15px!important}
+body .simple-page a,body .workflow-list b{font-size:13px!important}
+
+@media(max-width:600px){body{font-size:16px}body p{font-size:15px!important}body .app-frame small{font-size:12px!important}}
